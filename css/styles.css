@@ -1,0 +1,30 @@
+<style media="screen">
+
+  body {
+    style=background: #FEF5ED;
+  }
+
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: Gray;
+    border-width: 6.5px;
+    width: 2.5%;
+  }
+
+  h1 {
+    color: #444941;
+    text-align: center;
+    font-family: Papyrus,fantasy;
+  }
+
+  h3 {
+    color: #444941;
+    font-family: Papyrus ,fantasy;
+  }
+
+  p {
+    text-align: center;
+  }
+
+</style>
