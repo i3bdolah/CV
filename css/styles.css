@@ -1,30 +1,134 @@
-<style media="screen">
+body {
+  background-color: #F7F7F7;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+  font-family: 'Capriola', sans-serif;
+  line-height: 2;
+}
 
-  body {
-    style=background: #FEF5ED;
-  }
+.heading {
+  margin: 300px 10px 100px 10px;
+}
 
-  hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: Gray;
-    border-width: 6.5px;
-    width: 2.5%;
-  }
+h1 {
+  margin: 0px;
+  color: #009DAE;
+}
 
-  h1 {
-    color: #444941;
-    text-align: center;
-    font-family: Papyrus,fantasy;
-  }
+h2 {
+  margin: 30px auto 30px auto;
+  color: #009DAE;
+}
 
-  h3 {
-    color: #444941;
-    font-family: Papyrus ,fantasy;
-  }
+h3 {
+  margin: 50px auto 10px auto;
+  color: #009DAE;
+}
 
-  p {
-    text-align: center;
-  }
+p {
+  margin: 10px auto 10px auto;
+  color: #5b6e80;
+  line-height: 2;
+}
 
-</style>
+.cloud1 {
+  opacity: 0.2;
+  position: absolute;
+  right: 450px;
+  top: 70px;
+}
+
+.cloud2 {
+  opacity: 0.2;
+  position: absolute;
+  left: 450px;
+  bottom: 285px;
+}
+
+.mountain {
+  padding-top: 200px;
+}
+
+.skills {
+  text-align: center;
+}
+
+.skill-row {
+  margin: 50px auto 200px auto;
+  width: 50%;
+  line-height: 1.5;
+  text-align: left;
+  padding-top: 50px;
+}
+
+
+.my-pic {
+  width: 20%;
+  margin-bottom: 50px;
+}
+
+.ux {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.sa {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.bottom-container {
+  background-color: #009DAE;
+  padding: 50px 20px 20px 20px;
+  margin-top: 50px;
+}
+
+.footer-link {
+  padding: 0px 20px 0px 0px;
+  text-decoration: none;
+
+}
+
+.copyright {
+  color: white;
+  padding-top: 70px;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+hr {
+  opacity: 0.3;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #009DAE;
+  border-width: 6.5px;
+  width: 2.7%;
+  margin: 130px auto 130px auto;
+}
+
+.contact-me {
+  padding: 50px auto 50px auto;
+}
+
+.btn {
+  padding: 20px 40px 20px 40px;
+  background-color: #009DAE;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  background-color: #71DFE7;
+  color: white;
+}
